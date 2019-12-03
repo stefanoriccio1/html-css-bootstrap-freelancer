@@ -26,6 +26,9 @@
   display: block;
   clear: both;
 }
+body{
+  text-align: center;
+}
 /* header */
 /* header top */
 
