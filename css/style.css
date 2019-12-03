@@ -39,8 +39,25 @@
 }
 .menu li a{
   color: white;
+  margin-left: 20px;
 }
+.navbar_right{
+  text-align: right;
 
+}
+@media (min-width: 768px){
+  .burger{
+    display: none;
+  }
+}
+@media (max-width: 768px){
+  .menu{
+    display: none;
+  }
+  .burger{
+    display: block;
+  }
+}
 /* header bottom */
 .header_bottom{
   position: relative;
