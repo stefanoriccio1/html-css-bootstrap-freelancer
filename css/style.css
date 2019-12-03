@@ -1,0 +1,8 @@
+
+/* debug */
+[class*="col-"]{
+  float: left;
+  height: 200px;
+  border: 1px solid black;
+  background-color: pink;
+}
