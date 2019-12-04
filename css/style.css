@@ -22,6 +22,14 @@ body{
 .padding_top{
   padding-top: 40px;
 }
+h1{
+  font-size: 4em;
+}
+h2{
+  margin-bottom: 30px;
+}
+
+
 
 /* buttons */
 .btn_green {
@@ -62,12 +70,16 @@ body{
   text-decoration: none;
   margin-left: 20px;
   color: white;
+  font-size: 16px;
 }
 .navbar_header a{
   color: white;
 }
 .navbar_header ul li a:hover{
 color: #53BC9D;
+}
+.header_top p{
+  font-size: 24px;
 }
 /* header bottom */
 .jumbo {
@@ -83,6 +95,37 @@ color: #53BC9D;
 .jumbo_text img{
   width: 250px;
   text-align: center;
+}
+
+.star ul li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.hr{
+  float: left;
+}
+.hr_2{
+  float: right;
+}
+.hr_2{
+  height: 1px;
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0);
+  width: 33%;
+}
+.hr{
+  height: 1px;
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0);
+  width: 33%%;
+}
+.icon{
+  float: left;
 }
 
 /* main */
