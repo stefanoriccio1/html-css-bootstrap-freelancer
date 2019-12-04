@@ -6,9 +6,11 @@ body{
 
 .wrapper_70{
   width: 70%;
+  margin: 0 auto;
 }
 .wrapper_80{
   width: 80%;
+  margin: 0 auto;
 }
 .wrapper_60{
   width: 60%;
@@ -49,6 +51,7 @@ body{
   text-transform: uppercase;
   vertical-align: middle;
   font-size: 16px;
+  z-index:4;
 }
 /* navbar */
 .navbar_header ul li{
@@ -95,4 +98,17 @@ color: #53BC9D;
 /* about */
 .about{
 
+}
+/* footer */
+/* footer top */
+.footer_top{
+  color: white;
+}
+
+/* footer_bottom */
+.footer_bottom{
+color: white;
+background-color: #1A252E;
+padding-top: 20px;
+padding-bottom: 20px;
 }
