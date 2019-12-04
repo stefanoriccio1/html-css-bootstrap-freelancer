@@ -133,9 +133,9 @@ color: #53BC9D;
 /* portfolio */
 .box_portfolio{
   margin-bottom: 30px;
-  height: 100px;
-  background-color: blue;
-  border-radius: 5px;
+}
+.box_portfolio img{
+  border-radius: 10px;
 }
 
 /* about */
