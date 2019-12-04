@@ -13,6 +13,13 @@ body{
 .wrapper_60{
   width: 60%
 }
+.padding_bottom{
+  padding-bottom: 40px;
+}
+.padding_top{
+  padding-top: 40px;
+}
+
 /* buttons */
 .btn_green {
   background-color: #53BC9D;
@@ -66,4 +73,25 @@ color: #53BC9D;
 .jumbo_text {
   width: 60%;
   margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+.jumbo_text img{
+  width: 250px;
+  text-align: center;
+}
+
+/* main */
+
+/* portfolio */
+.box_portfolio{
+  margin-bottom: 30px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+/* about */
+.about{
+
 }
