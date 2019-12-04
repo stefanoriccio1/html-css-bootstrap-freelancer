@@ -1,1 +1,24 @@
 
+.header_top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2C3D50;
+  height: 80px;
+  color: white;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+.navbar_header ul li{
+  display: inline-block;
+  list-style: none;
+}
+.navbar_header ul li a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: white;
+}
+.navbar_header a{
+  color: white;
+}
