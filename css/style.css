@@ -1,24 +1,69 @@
+/* general */
+body{
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
+}
 
+.wrapper_70{
+  width: 70%;
+}
+.wrapper_80{
+  width: 80%;
+}
+.wrapper_60{
+  width: 60%
+}
+/* buttons */
+.btn_green {
+  background-color: #53BC9D;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+/* backgrounds */
+.bg_blue{
+  background-color: #2C3D50;
+}
+.bg_green{
+  background-color: #53BC9D;
+}
+
+/* header   */
+/* headertop */
 .header_top{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #2C3D50;
   height: 80px;
   color: white;
   line-height: 80px;
   text-transform: uppercase;
+  vertical-align: middle;
+  font-size: 16px;
 }
+/* navbar */
 .navbar_header ul li{
   display: inline-block;
   list-style: none;
 }
 .navbar_header ul li a{
   text-decoration: none;
-  margin-left: 15px;
+  margin-left: 20px;
   color: white;
 }
 .navbar_header a{
   color: white;
+}
+.navbar_header ul li a:hover{
+color: #53BC9D;
+}
+/* header bottom */
+.jumbo {
+  margin-top: 80px;
+  padding: 80px 0;
+}
+.jumbo_text {
+  width: 60%;
+  margin: 0 auto;
 }
