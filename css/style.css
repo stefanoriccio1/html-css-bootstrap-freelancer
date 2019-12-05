@@ -26,6 +26,7 @@ h1{
   font-size: 6rem;
 }
 h2{
+  color: white;
   margin-bottom: 10px;
   font-size: 5rem;
   text-transform: uppercase;
@@ -34,6 +35,14 @@ h2{
 .star{
   color: white;
   font-size: 3rem
+}
+.portfolio .star,
+.contact .star{
+  color: #2C3D50;
+}
+.contact h2,
+.portfolio h2{
+  color: #2C3D50
 }
 .divider-custom{
   margin: 0.5rem 0 2rem;
@@ -46,7 +55,6 @@ h2{
   margin-left: 1rem;
 }
 .line{
-  background-color: white;
   width: 100%;
   max-width: 12rem;
   height: 0.4rem;
@@ -68,6 +76,9 @@ h2{
 }
 .bg_green{
   background-color: #53BC9D;
+}
+.bg_white{
+  background-color: white;
 }
 
 /* header   */
@@ -128,6 +139,7 @@ color: #53BC9D;
   margin-bottom: 30px;
   position: relative;
 }
+
 .box_portfolio img{
   border-radius: 10px;
   width: 100%;
