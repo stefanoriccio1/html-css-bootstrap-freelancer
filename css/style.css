@@ -117,14 +117,22 @@ color: #53BC9D;
   height: 100%;
   border-radius: 10px;
   background-color: rgba(85,187,157,0.9);
+  visibility: hidden;
 }
 .cross{
   position: absolute;
   left: 40%;
-  top: 35%;
+  top: 30%;
   transform: translate(-50% -50%);
   color: white;
   font-size: 80px;
+}
+.layout:hover{
+  visibility: visible;
+}
+.box_portfolio:hover{
+  cursor: pointer;
+
 }
 
 /* about */
