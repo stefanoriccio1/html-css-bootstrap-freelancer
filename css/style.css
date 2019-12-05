@@ -6,7 +6,7 @@ body{
 
 .wrapper_70{
   width: 70%;
-  margin: 0 auto;
+  margin: auto;
 }
 .wrapper_80{
   width: 80%;
@@ -160,7 +160,7 @@ color: #53BC9D;
   height: 100%;
   border-radius: 10px;
   background-color: rgba(85,187,157,0.9);
-  visibility: hidden;
+  display: none;
 }
 .cross{
   position: absolute;
@@ -170,12 +170,10 @@ color: #53BC9D;
   color: white;
   font-size: 80px;
 }
-.layout:hover{
-  visibility: visible;
-}
-.box_portfolio:hover{
-  cursor: pointer;
 
+.box_portfolio:hover .layover{
+  cursor: pointer;
+  display: block;
 }
 
 /* about */
@@ -189,6 +187,23 @@ color: #53BC9D;
 /* footer top */
 .footer_top{
   color: white;
+}
+.footer_top .link{
+  color:#53BC9D;
+}
+.footer_top h3{
+  margin: 0 auto;
+}
+.footer_top ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+.footer_top ul li{
+  display: inline-block;
+}
+.footer_top .button{
+  background-color:
 }
 
 /* footer_bottom */
